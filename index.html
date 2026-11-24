@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Muhammad Wajahat – UI/UX Designer & BBA Finance background based in Karachi, Pakistan. Turning business goals into user-centered digital products.">
+  <meta name="author" content="Muhammad Wajahat">
+  <title>Muhammad Wajahat — UI/UX Designer · BBA, Accounts &amp; Finance</title>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+
+  <!-- Typography: Inter via Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Core Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Main JavaScript (deferred) -->
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <!-- ============================================================
+       STICKY NAVIGATION BAR
+       Header stays fixed/sticky at the top with a subtle divider
+       ============================================================ -->
+  <header class="site-header" id="top">
+    <div class="container nav-wrapper">
+      <a href="#top" class="brand-logo" aria-label="Muhammad Wajahat Portfolio - Home">
+        Wajahat<span class="brand-dot">.</span>
+      </a>
+
+      <!-- Mobile Hamburger Button -->
+      <button 
+        type="button" 
+        class="nav-toggle" 
+        id="nav-toggle"
+        aria-label="Toggle navigation menu" 
+        aria-expanded="false" 
+        aria-controls="primary-navigation"
+      >
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+      </button>
+
+      <!-- Primary Navigation Links -->
+      <nav class="nav-menu" id="primary-navigation" aria-label="Primary Navigation">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link nav-link--cta">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- MAIN CONTENT CONTAINER -->
+  <main id="main-content">
+
+    <!-- ============================================================
+         HERO SECTION
+         High-contrast typography, warm palette, bold mission statement
+         ============================================================ -->
+    <section class="section hero" id="hero" aria-labelledby="hero-heading">
+      <!-- Watermark background lettering (decorational) -->
+      <div class="hero-watermark" aria-hidden="true">DESIGN</div>
+
+      <div class="container hero-container">
+        <div class="hero-grid">
+          <div class="hero-content">
+            <!-- Eyebrow Tagline -->
+            <p class="hero-eyebrow">
+              <span class="eyebrow-badge">UI/UX DESIGNER</span>
+              <span class="eyebrow-sep">·</span>
+              <span>BBA, ACCOUNTS &amp; FINANCE</span>
+              <span class="eyebrow-sep">·</span>
+              <span>KARACHI</span>
+            </p>
+
+            <!-- Bold Oversized Headline (3-line editorial lockup) -->
+            <h1 class="hero-headline" id="hero-heading">
+              <span class="headline-line">I design</span>
+              <span class="headline-line">interfaces that</span>
+              <span class="headline-line">make <span class="highlight-coral">business sense.</span></span>
+            </h1>
+
+            <!-- Hero Subtext -->
+            <p class="hero-subtext">
+              Hands-on UI/UX designer with a business administration foundation, turning requirements into wireframes, prototypes, and polished designs in Figma and the Adobe suite.
+            </p>
+
+            <!-- Action Links & CTAs -->
+            <div class="hero-actions">
+              <a 
+                href="https://linkedin.com/in/muhammadwajahat-4aab17265" 
+                target="_blank" 
+                rel="noopener" 
+                class="btn btn-primary"
+              >
+                LinkedIn
+                <span class="btn-arrow" aria-hidden="true">↗</span>
+              </a>
+
+              <a 
+                href="https://wa.me/923112641820?text=Hi%20Wajahat%2C%20I%20saw%20your%20portfolio." 
+                target="_blank" 
+                rel="noopener" 
+                class="btn btn-secondary"
+              >
+                WhatsApp
+                <span class="btn-arrow" aria-hidden="true">↗</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Portrait Photo Column -->
+          <div class="hero-media">
+            <div class="hero-photo-frame">
+              <img 
+                src="assets/wajahat.jpg" 
+                alt="Muhammad Wajahat, UI/UX Designer based in Karachi" 
+                class="hero-photo"
+              >
+              <span class="hero-photo-accent" aria-hidden="true"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Centered Bottom Scroll Indicator -->
+      <a href="#about" class="hero-scroll-indicator" aria-label="Scroll down to About section">
+        <span aria-hidden="true">↓</span>
+      </a>
+    </section>
+
+    <!-- ============================================================
+         01 ABOUT SECTION
+         Statement paragraph, background story, and quick-facts grid
+         ============================================================ -->
+    <section class="section" id="about" aria-labelledby="about-heading">
+      <div class="container">
+        <!-- Section Header with Number -->
+        <div class="section-header">
+          <span class="section-number" aria-hidden="true">01</span>
+          <h2 class="section-title" id="about-heading">About</h2>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-narrative">
+            <p class="statement-lead">
+              Creative and detail-oriented designer who combines a strong visual sense with an analytical, finance-aware mindset.
+            </p>
+            <p class="statement-body">
+              Bridging the gap between commercial strategy and everyday user needs, I translate complex business requirements into intuitive, accessible, and user-centered interfaces for web and mobile platforms. My background in business administration and finance provides a distinct vantage point: every design choice is vetted for usability, feasibility, and measurable return.
+            </p>
+          </div>
+
+          <!-- Quick Facts Card / Grid -->
+          <aside class="quick-facts" aria-label="Key Quick Facts">
+            <h3 class="quick-facts-title">At a Glance</h3>
+            <dl class="facts-list">
+              <div class="fact-item">
+                <dt class="fact-label">Location</dt>
+                <dd class="fact-value">Karachi, Pakistan</dd>
+              </div>
+              <div class="fact-item">
+                <dt class="fact-label">Focus</dt>
+                <dd class="fact-value">UI/UX Design &amp; Prototyping</dd>
+              </div>
+              <div class="fact-item">
+                <dt class="fact-label">Background</dt>
+                <dd class="fact-value">BBA, Accounts &amp; Finance</dd>
+              </div>
+              <div class="fact-item">
+                <dt class="fact-label">Availability</dt>
+                <dd class="fact-value fact-value--status">
+                  <span class="status-indicator" aria-hidden="true"></span>
+                  Open to projects &amp; roles
+                </dd>
+              </div>
+            </dl>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         02 EXPERIENCE SECTION
+         Vertical timeline with coral dots, newest first
+         ============================================================ -->
+    <section class="section" id="experience" aria-labelledby="experience-heading">
+      <div class="container">
+        <!-- Section Header with Number -->
+        <div class="section-header">
+          <span class="section-number" aria-hidden="true">02</span>
+          <h2 class="section-title" id="experience-heading">Experience</h2>
+        </div>
+
+        <!-- Vertical Timeline Component -->
+        <div class="timeline" role="list">
+
+          <!-- Experience 1 -->
+          <article class="timeline-item" role="listitem">
+            <div class="timeline-marker" aria-hidden="true"></div>
+            <div class="timeline-content">
+              <div class="timeline-meta">
+                <span class="timeline-date">Feb 2026 – Present</span>
+                <span class="timeline-badge">Current Role</span>
+              </div>
+              <h3 class="timeline-role">Accounts &amp; Finance Intern</h3>
+              <p class="timeline-company">Al-Hamd Traders · Karachi, Pakistan</p>
+              <ul class="timeline-bullets">
+                <li>Maintain daily bookkeeping records, ledgers, and journal entries in MS Excel and QuickBooks.</li>
+                <li>Reconcile bank statements and vendor accounts and support month-end closing procedures.</li>
+                <li>Prepare invoices and expense reports and organize documentation for internal audits and tax filing.</li>
+              </ul>
+            </div>
+          </article>
+
+          <!-- Experience 2 -->
+          <article class="timeline-item" role="listitem">
+            <div class="timeline-marker" aria-hidden="true"></div>
+            <div class="timeline-content">
+              <div class="timeline-meta">
+                <span class="timeline-date">May 2025 – Feb 2026</span>
+              </div>
+              <h3 class="timeline-role">UI/UX Designer</h3>
+              <p class="timeline-company">Tekzit · Karachi, Pakistan</p>
+              <ul class="timeline-bullets">
+                <li>Collaborated with developers, product managers, and marketers on responsive web and mobile interfaces.</li>
+                <li>Translated business requirements into wireframes, high-fidelity prototypes, and final design systems in Figma.</li>
+                <li>Presented design rationale during cross-functional reviews and rapidly iterated based on qualitative feedback.</li>
+                <li>Applied current UI/UX trends and interaction principles to improve product performance and user engagement metrics.</li>
+              </ul>
+            </div>
+          </article>
+
+          <!-- Experience 3 -->
+          <article class="timeline-item" role="listitem">
+            <div class="timeline-marker" aria-hidden="true"></div>
+            <div class="timeline-content">
+              <div class="timeline-meta">
+                <span class="timeline-date">Aug 2023 – Present</span>
+              </div>
+              <h3 class="timeline-role">UI/UX Designer (Freelance)</h3>
+              <p class="timeline-company">Self-employed · Remote</p>
+              <ul class="timeline-bullets">
+                <li>Designed modern UI elements (navigation menus, responsive tabs, dashboards, widgets) for diverse client briefs.</li>
+                <li>Ran comprehensive competitor analysis and market research to identify functional market gaps.</li>
+                <li>Built interactive UI mockups and prototypes illustrating page structure, interactive flows, and visual look-and-feel.</li>
+                <li>Gathered and evaluated user requirements directly with international project managers and frontend engineers.</li>
+              </ul>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         03 EDUCATION SECTION
+         Structured rows with large years on the left
+         ============================================================ -->
+    <section class="section" id="education" aria-labelledby="education-heading">
+      <div class="container">
+        <!-- Section Header with Number -->
+        <div class="section-header">
+          <span class="section-number" aria-hidden="true">03</span>
+          <h2 class="section-title" id="education-heading">Education</h2>
+        </div>
+
+        <div class="education-table" role="list">
+
+          <!-- Degree 1 -->
+          <article class="education-row" role="listitem">
+            <div class="education-period">
+              <span class="period-year">2023 – Present</span>
+              <span class="period-status">In Progress</span>
+            </div>
+            <div class="education-details">
+              <h3 class="education-degree">Bachelor of Business Administration (BBA)</h3>
+              <p class="education-institution">Iqra University · Karachi, Pakistan</p>
+              <p class="education-summary">Specialization in Accounts &amp; Finance, developing analytical modeling, commercial strategy, and project evaluation methodologies.</p>
+            </div>
+          </article>
+
+          <!-- Degree 2 -->
+          <article class="education-row" role="listitem">
+            <div class="education-period">
+              <span class="period-year">2022</span>
+              <span class="period-status">Completed</span>
+            </div>
+            <div class="education-details">
+              <h3 class="education-degree">Intermediate (Pre-Engineering)</h3>
+              <p class="education-institution">Government College, Malir Cantt · Karachi, Pakistan</p>
+              <p class="education-summary">Higher secondary education with a rigorous core foundation in advanced mathematics, physics, and analytical problem-solving.</p>
+            </div>
+          </article>
+
+          <!-- Degree 3 -->
+          <article class="education-row" role="listitem">
+            <div class="education-period">
+              <span class="period-year">2020</span>
+              <span class="period-status">Completed</span>
+            </div>
+            <div class="education-details">
+              <h3 class="education-degree">Matriculation</h3>
+              <p class="education-institution">Education Trust Nasra School · Karachi, Pakistan</p>
+              <p class="education-summary">Secondary school certificate with high distinction in science, computing, and communications.</p>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         04 SKILLS & TOOLS SECTION
+         Structured columns / clean pill tags covering Design, UX, Tools, Business & Languages
+         ============================================================ -->
+    <section class="section" id="skills" aria-labelledby="skills-heading">
+      <div class="container">
+        <!-- Section Header with Number -->
+        <div class="section-header">
+          <span class="section-number" aria-hidden="true">04</span>
+          <h2 class="section-title" id="skills-heading">Skills &amp; Tools</h2>
+        </div>
+
+        <div class="skills-grid">
+
+          <!-- Category 1: Design -->
+          <div class="skill-card">
+            <h3 class="skill-category-title">
+              <span class="category-icon" aria-hidden="true">✦</span>
+              Design
+            </h3>
+            <ul class="skill-tags" aria-label="Design skills">
+              <li class="skill-pill">Landing Page Design</li>
+              <li class="skill-pill">UI Design</li>
+              <li class="skill-pill">Mobile App Design</li>
+              <li class="skill-pill">Prototyping</li>
+              <li class="skill-pill">Wireframing</li>
+            </ul>
+          </div>
+
+          <!-- Category 2: UX Methods -->
+          <div class="skill-card">
+            <h3 class="skill-category-title">
+              <span class="category-icon" aria-hidden="true">✦</span>
+              UX Methods
+            </h3>
+            <ul class="skill-tags" aria-label="UX Methods skills">
+              <li class="skill-pill">User Research</li>
+              <li class="skill-pill">Competitor Analysis</li>
+              <li class="skill-pill">Design Reviews</li>
+              <li class="skill-pill">Usability Iteration</li>
+            </ul>
+          </div>
+
+          <!-- Category 3: Tools -->
+          <div class="skill-card">
+            <h3 class="skill-category-title">
+              <span class="category-icon" aria-hidden="true">✦</span>
+              Tools
+            </h3>
+            <ul class="skill-tags" aria-label="Tools and software">
+              <li class="skill-pill">Figma</li>
+              <li class="skill-pill">Adobe XD</li>
+              <li class="skill-pill">Adobe Photoshop</li>
+              <li class="skill-pill">Adobe Illustrator</li>
+            </ul>
+          </div>
+
+          <!-- Category 4: Business -->
+          <div class="skill-card">
+            <h3 class="skill-category-title">
+              <span class="category-icon" aria-hidden="true">✦</span>
+              Business
+            </h3>
+            <ul class="skill-tags" aria-label="Business and finance skills">
+              <li class="skill-pill">Bookkeeping</li>
+              <li class="skill-pill">MS Excel</li>
+              <li class="skill-pill">QuickBooks</li>
+              <li class="skill-pill">Financial Reporting</li>
+            </ul>
+          </div>
+
+          <!-- Category 5: Languages (Span full width or complement grid) -->
+          <div class="skill-card skill-card--wide">
+            <h3 class="skill-category-title">
+              <span class="category-icon" aria-hidden="true">✦</span>
+              Languages
+            </h3>
+            <ul class="skill-tags" aria-label="Language proficiencies">
+              <li class="skill-pill">Urdu <span class="pill-note">(Native)</span></li>
+              <li class="skill-pill">English <span class="pill-note">(Conversational)</span></li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         05 CONTACT SECTION
+         Clean direct contact links with animated hover arrows
+         ============================================================ -->
+    <section class="section" id="contact" aria-labelledby="contact-heading">
+      <div class="container">
+        <!-- Section Header with Number -->
+        <div class="section-header">
+          <span class="section-number" aria-hidden="true">05</span>
+          <h2 class="section-title" id="contact-heading">Contact</h2>
+        </div>
+
+        <div class="contact-wrapper">
+          <h3 class="contact-headline">Let’s work together.</h3>
+          <p class="contact-subhead">
+            Have a project in mind, a full-time or freelance opportunity, or just want to discuss how user experience drives bottom-line growth? Reach out directly.
+          </p>
+
+          <!-- Large Link Rows -->
+          <div class="contact-list" role="list">
+
+            <!-- Email -->
+            <a 
+              href="mailto:mwajahat108@gmail.com" 
+              class="contact-row" 
+              role="listitem"
+            >
+              <div class="contact-row-info">
+                <span class="contact-type">Email</span>
+                <span class="contact-value">mwajahat108@gmail.com</span>
+              </div>
+              <span class="contact-arrow" aria-hidden="true">↗</span>
+            </a>
+
+            <!-- WhatsApp -->
+            <a 
+              href="https://wa.me/923112641820?text=Hi%20Wajahat%2C%20I%20saw%20your%20portfolio." 
+              target="_blank" 
+              rel="noopener" 
+              class="contact-row" 
+              role="listitem"
+            >
+              <div class="contact-row-info">
+                <span class="contact-type">WhatsApp</span>
+                <span class="contact-value">+92 311 2641820</span>
+              </div>
+              <span class="contact-arrow" aria-hidden="true">↗</span>
+            </a>
+
+            <!-- LinkedIn -->
+            <a 
+              href="https://linkedin.com/in/muhammadwajahat-4aab17265" 
+              target="_blank" 
+              rel="noopener" 
+              class="contact-row" 
+              role="listitem"
+            >
+              <div class="contact-row-info">
+                <span class="contact-type">LinkedIn</span>
+                <span class="contact-value">linkedin.com/in/muhammadwajahat-4aab17265</span>
+              </div>
+              <span class="contact-arrow" aria-hidden="true">↗</span>
+            </a>
+
+            <!-- Behance -->
+            <a 
+              href="https://behance.net/muhammadwajahat20" 
+              target="_blank" 
+              rel="noopener" 
+              class="contact-row" 
+              role="listitem"
+            >
+              <div class="contact-row-info">
+                <span class="contact-type">Behance</span>
+                <span class="contact-value">behance.net/muhammadwajahat20</span>
+              </div>
+              <span class="contact-arrow" aria-hidden="true">↗</span>
+            </a>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============================================================
+       SITE FOOTER
+       Clean copyright and back-to-top anchor
+       ============================================================ -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <div class="footer-left">
+        <p class="copyright-text">
+          &copy; 2026 Muhammad Wajahat. Built with semantic HTML, CSS &amp; vanilla JS.
+        </p>
+      </div>
+      <div class="footer-right">
+        <a href="#top" class="back-to-top" id="back-to-top" aria-label="Back to top of the page">
+          Back to top <span class="arrow-up" aria-hidden="true">↑</span>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ============================================================
+       FLOATING WHATSAPP BUTTON
+       Fixed bottom-right button with official WhatsApp brand green
+       ============================================================ -->
+  <a 
+    href="https://wa.me/923112641820?text=Hi%20Wajahat%2C%20I%20saw%20your%20portfolio." 
+    target="_blank" 
+    rel="noopener" 
+    class="floating-whatsapp" 
+    id="floating-whatsapp"
+    aria-label="Chat on WhatsApp"
+  >
+    <svg 
+      class="whatsapp-icon" 
+      viewBox="0 0 32 32" 
+      width="32" 
+      height="32" 
+      fill="currentColor" 
+      aria-hidden="true"
+    >
+      <path d="M16 2a13.9 13.9 0 0 0-12 21L2 30l7.3-1.9A13.9 13.9 0 1 0 16 2zm0 25.5a11.6 11.6 0 0 1-5.9-1.6l-.4-.3-4.4 1.1 1.2-4.3-.3-.5A11.6 11.6 0 1 1 16 27.5zm6.4-8.7c-.3-.2-2-1-2.3-1.1-.3-.1-.5-.2-.7.2-.2.3-.8 1.1-1 1.3-.2.2-.4.2-.7.1a8.8 8.8 0 0 1-4-2.5 9.7 9.7 0 0 1-1.8-2.3c-.2-.3 0-.5.1-.7.1-.1.3-.4.5-.6.2-.2.2-.3.3-.5.1-.2 0-.4 0-.5-.1-.2-.7-1.7-1-2.3-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4s-1.2 1.2-1.2 2.8 1.2 3.3 1.4 3.5c.2.2 2.4 3.7 5.8 5.2 2.3 1 3.2 1.1 4.3 1 .8-.1 2.3-1 2.6-1.9.4-1 .4-1.8.3-2 0-.2-.3-.3-.6-.5z"/>
+    </svg>
+    <span class="floating-tooltip" aria-hidden="true">Chat on WhatsApp</span>
+  </a>
+
+</body>
+</html>
